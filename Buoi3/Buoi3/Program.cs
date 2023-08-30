@@ -10,6 +10,14 @@ namespace Buoi3
     {
         static void Main(string[] args)
         {
+            Test sv = new Test();
+            Console.WriteLine("MOI NHAP: ");
+            int mssv = Convert.ToInt32(Console.ReadLine());
+            sv.setMSSV(mssv);
+            Console.WriteLine(sv.getMssv());
+            Console.ReadKey();
+
+
         }
     }
 }
